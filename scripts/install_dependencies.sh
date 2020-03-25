@@ -9,7 +9,7 @@ sudo dnf install -y httpd
 
 sudo firewall-cmd --zone=public --permanent --add-service=http
 sudo firewall-cmd --reload
-echo Apache on RHEL 8 / CentOS 8 > /var/www/html/index.html
+#echo Apache on RHEL 8 / CentOS 8 > /var/www/html/index.html
 
 
 
